@@ -1,0 +1,181 @@
+**13.09.2022 Notları**
+<!-- HTML ile ilgili çalışıyoruz -->
+
+<p> Paragraf başları oluyor </p>
+
+<!-- 14.09.2022 Liste Video Notları -->
+<!-- 
+    Sıralı Listeleme - Ordered list   - <ol> </ol>
+    Sıralı Olmayan   - Unordered list - <ul> </ul>
+    Listenin içerisinde muhakkak içerik olması lazım
+                     - List İtem      - <li> </li>
+-->
+<ol style="list-style-type:square">
+    <li>Liste Öğesi 1</li>
+    <li>Liste Öğesi 2</li>
+    <li>Diğer Özellikler ise: 
+        <p>
+        <ul>
+            <li>Liste Öğesi 1</li>
+            <li>Liste Öğesi 2</li>
+            <li>Liste Öğesi 3</li>
+                        <p>
+                    <ol type="I">
+                        <li>Liste Öğesi 1</li>
+                        <li>Liste Öğesi 2</li>
+                        <li>Liste Öğesi 3</li>
+                    </ol>
+        </ul>
+    </li>
+</ol>
+
+<!-- Listemelerde Maddelerin Şekillerini Değiştirilebilir
+
+        1- Maddeleri A-B-C diye yapmak içi    Örn: <ol type="A">
+        2- Maddeleri Roman Rakamı yapmak için Örn: <ol type="I">
+        3- Maddeleri Kare yapmak için         Örn:                 <ol style="list-style-type:square>
+-->
+<h1>MARKALAR ve Araçları</h1>
+
+<ul>
+    <li><h2>BWM</h2>
+        <li> <h3> <b>Motorsikletler</b> </h3> 
+                <li> <h4> <b>Adventure Modelleri</b> </h4>  
+                    <li>GS 1250 Adv</li>
+                    <li>GS 1200</li>
+                    <li>GS 800</li>
+                    <li>GS 310</li>
+                </li>
+                <li> <h4> <b>Turing Modelleri</b> </h4> 
+                    <li>Örnek1</li>
+                    <li>Örnek2</li>
+                    <li>Örnek3</li>
+                </li>
+        </li>    
+        <li> <h3> <b>Arabalar</b> </h3>
+            <li> <h4> <b>Spor Modeller</b> </h4> 
+                <li>Örnek1</li>
+                <li>Örnek2</li>
+                <li>Örnek3</li>
+            </li>
+            <li> <h4> <b>Kamyon Modeller</b> </h4> 
+                <li>Örnek1</li>
+                 <li>Örnek2</li>
+                <li>Örnek3</li>
+            </li>
+        </li>
+    </li>       
+<li><h2>Yamaha</h2></li>
+
+</ul>
+<!-- Buradan yapılan örneğe devam edilecek -->
+
+<!-- 15.09.2022 -->
+
+<!--  
+Etiket isimlerini direkt verebiliyoruz
+
++ basarak etiket yazarsak, kardeşi element oluştururuz.
+> oluşturursak içinde öge oluşur
+^ yukarı çık öge oluştur
+^^ yaparsak 2 kere yukarı çıkıyoruz
+* çarpma işlemi
+lorem ??? Anlamsız çok uzun yazılara denir. Göz doldursun yani
+lorem4    4 Kelimelik anlamsız bir cümle üret
+.class oluşturmak için
+bir şey boşluk .class olursa div'le olan class çıkıyor
+# ID oluşturmak için
+-->
+
+
+<!-- h1+h2 yapınca aşağıdaki çıkıyor  -->
+<h1></h1>
+<h2></h2>
+
+<!-- h1+p+h2+p+h2 yapınca aşağıdaki çıkıyor -->
+<h1></h1>
+<p></p>
+<h2></h2>
+<p></p>
+<h2></h2>
+
+<!-- ya da  -->
+<!-- h1*2+h3*3 yapınca  -->
+<h1></h1>
+<h1></h1>
+<h3></h3>
+<h3></h3>
+
+<!-- ul>li*3 yapınca -->
+
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+
+<!-- ul>li*3^p yaparsak bu şekilde olur. Li ile içeri girdikten sonra ^ ile tekrar ul ile aynı hizaya gelmiş oluyoruz. -->
+<ul>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+<p></p>
+
+<!-- ul>li*3>lorem1^^p*2 -->
+<ul>
+    <li>Lorem.</li>
+    <li>Tempora!</li>
+    <li>Architecto!</li>
+</ul>
+<p></p>
+<p></p>
+
+<!-- ul>li*3>lorem1+p*2 -->
+<ul>
+    <li>
+        Lorem.
+        <p></p>
+        <p></p>
+    </li>
+    <li>
+        Cumque!
+        <p></p>
+        <p></p>
+    </li>
+    <li>
+        Cum.
+        <p></p>
+        <p></p>
+    </li>
+</ul>
+<!-- h2.deneme yazarsak class özelliği gelir -->
+<h2 class="deneme"></h2>
+
+<!-- h2. deneme yazarsak div özelliği geliyor -->
+h2 <div class="deneme"></div>
+
+<!-- h3#idolussun yazdığımızda id özelliği gelir. TR Karakter kullanma -->
+<h3 id="Idolussun"></h3>
+
+<!-- h3.deneme#idolussun>lorem1 -->
+<h3 class="deneme" id="idolussun">Lorem.</h3>
+
+<!-- h3.deneme#idolussun>lorem1*2  2 tane lorem ayrı ve div olarak geldi--> 
+<h3 class="deneme" id="idolussun">
+    <div>Lorem.</div>
+    <div>Provident.</div>
+</h3>
+<!-- <h2 class="deneme html"></h2> yapınca aynı anda iki class'a girmiş oluyoruz -->
+<h2 class="deneme html"></h2>
+
+<!-- ul>.tepki ve ul>li.tepki aynı sonucu verir-->
+<ul>
+    <li class="tepki"></li>
+</ul>
+
+<!-- Görsellerle Çalışmak -->
+<!-- ımg etiketi kullanılacak -->
+<img src="https://assets.ubuntu.com/v1/8b4e89dd-68747470733a2f2f696d616765732e7a656e68756275736572636f6e74656e742e636f6d2f3562393738373431393663303830316165643138633461312f38613536666636392d633961302d346236622d396265372d356563333835356361633334.svg" alt="">
+
+<img src="HTML Proje/images/indir.jpg" " alt="deneme foto">
