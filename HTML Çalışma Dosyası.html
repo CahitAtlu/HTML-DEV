@@ -1,7 +1,7 @@
 **13.09.2022 Notları**
 <!-- HTML ile ilgili çalışıyoruz -->
 
-<p> Paragraf başları oluyor </p>
+<p> Paragraf oluyor </p>
 
 <!-- 14.09.2022 Liste Video Notları -->
 <!-- 
@@ -236,7 +236,7 @@ h2 <div class="deneme"></div>
 <!-- 19.09.2022 >>>> Blok Elementler ve Inline Elementler -->
 
 <!-- Blok Elementler sayfanın tamamını kaplar,
-     Inline Elemenlentler sayfade sadece yazılı olduğu yer kadar yer kaplar.
+     Inline Elemenlentler sayfada sadece yazılı olduğu yer kadar yer kaplar.
 
      <div>  Pek bi işlevi yok, sadece içerisinde barındırdığı kodları bütün bir blok haline sokuyor, bir blokta toplamış oluyor.
 
@@ -248,20 +248,22 @@ h2 <div class="deneme"></div>
 
 <h2>hr deneme</h2>
 <hr>
-<h3>hr deneme</h3>  
+<h3>hr deneme</h3> 
+
+asdasd
 
 <!-- 21.09.2022 ---HTML Etiketlerine Ekstra Özellikler Ekleme -->
 
 <!-- id"idyazılırkenboşlukolmaz" 
      class yazerken="birinci-sinif ikinci sinif"
      class etiketlerinde kendimiz etiketler yaratabiliriz:
-     data-id= b la bla
+     data-id= bla bla
      id her zaman tek olmalı
      hep - işareti kullanılır, boşluk verilmez    
     --> 
-<a class="birinci-sinif ikinci-sinif" id="eşsizolmali" href="" ></a>
+<a class="birinci-sinif ikinci-sinif" id="eşsizolmali" href="http://google.com" >id deneme</a>
 
-<div class="" id="tekbilgi" data-section="örnek"></div>
+<div class="" id="tekbilgi" data-section="örnek">Data-Section Örneği</div> 
 
 <!--
     Bir web sayfasının ana iskeletini oluşturmak için her şeyden önce !+Tab yaparız.
@@ -290,17 +292,16 @@ h2 <div class="deneme"></div>
 ise sekmeler kısmında web sitesinin ismini belirtir çünkü bu etiket head kısmında 
 -->
 
-<!DOCTYPE html>
-<html lang="TR">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cahit Web sitesi</title>
-</head>
-<body>
-    
-</body>
-</html>
+<!-- Semantık >>> Anlamlandırılmış HTML Etiketlerin Kullanımı  -->
+<!-- Bir yapı oluştururken her yeri div ile yapmaktansa, farklı etiketler kullanarak, kolay okunurluğu sağlarız ve kolayca anlarız.
 
- 
+
+Örneğin: 
+Menünün olacağı yerdeki eitketi nav (navigatör),
+Sol/Sağ taraftaki bar için aside
+Normal bölümler için section
+Ve en alt bölüm için footer olarak işaretleyebiliriz.
+En küçük bölümleri de article olarak işaretleyebiliriz.
+main ile ana kısmı belirterek, içini doldurabilirsiniz.
+
+-->
