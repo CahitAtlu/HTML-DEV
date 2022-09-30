@@ -1,17 +1,31 @@
-h1 
-    {
-      font-size: 64px;
-      color: blue;
-    }
+/* Açıklama Satırı bu Şekilde Yazılıyor */ 
+/* yada */
+/****************** deneme  ***************/
+/* class için >>>  .text-red {} 
+   id için    >>>  #id bilgisi {}
+*/
 
-h2 
-    {
-      font-size: 40px;
-      color: red;
-    }
+.fs-small 
+{
+  font-size: small;
+}
 
-p 
-    {    
-      font-size: 30px;
-      color: yellow;
-    }
+.fs-medium 
+{
+  font-size: medium;
+}
+
+.fs-large 
+{
+  font-size: large;
+}
+
+#first-article 
+{
+font-size: 40px;
+}
+
+h1, h2 ,h3 ,h4 ,h5 ,h6 
+{
+color: red;
+}

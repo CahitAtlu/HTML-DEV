@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSS Çalışması</title>
+    <link rel="stylesheet" href="css/kodluyoruz.css">
 </head>
 <body>
 <!-- 
@@ -12,8 +13,8 @@
     {color:blue; font-size:12px;}
     <h1 style="color:red;font-size:14px">
 -->
-<h1 style="color:red; font: size 64px;">CSS İlk Başlık</h1>
-<p style="color:blueviolet;font:size 28px;;">CSS Deneme</p>
+<h1>CSS İlk Başlık</h1>
+<p>CSS Deneme</p>
 
 <!-- 3 TÜR CSS EKLEME YÖNTEMİ VAR -->
 
@@ -38,6 +39,67 @@ Bu dosya dışınıda başka bir yerde duran bir CSS dosyasını linkleyerek, o 
 Örnek:
   <link rel="stylesheet" href="css/kodluyoruz.css"> 
   -->
+
+  <!-- CSS dosyasının içerisinde açıklama yazısı yazmak için şu an yaptığımız gibi ünlemli değil, /* deneme */ olarak yazılması gerekiyor. Yine CTRL + ö ile yapılabiliyor.
+  
+  /******** deneme ********/ olarak bile kullanılabilir, daha göze çarpar.
+  --> 
+<!-- Bütün bir etiketi p, başlık ya da fark etmez, büyük harf olsun istiyorsak eğer şu etiket kullanılır:
+text-transform: uppercase; 
+ya da
+text-transform: lowercase;
+
+CSS Sayfasından bakabilirsiniz
+-->
+<h1 style="text-transform: uppercase">deneme 1</h1>
+<p>Lorem, ipsum dolor.</p>
+<p>Velit, voluptates accusamus?</p>
+<p>Optio, ullam necessitatibus.</p>
+
+<!-- Yazıların Fontunu değiştirmek için se font-family:"calibri"
+olarak yazıyor.
+-->
+
+<!-- CSS'de class yapmak için class isminin önüne . koyulur. -->
+<!-- Bir yere birden fazla class yapıcaksak, sadece bir boşluk bırakmak yeterli -->
+<!-- HTML'de direkt class'lı bir şekilde yazmak için kısa yolu:
+h1.fs-small yapıp enter yapabiliriz. Eğer aynı anda birden fazl class yazılacaksa: h1.fs-small.text-red yapıyoruz.
+-->
+<!-- Eğer birkaç tane etiketi aynı anda topluca etkilemek istiyorsak CSS'ini yazarken h1,h2,h3,h4,h5,h6 {} olarak yazılıyor -->
+
+<article class="text-red fs-small">
+  <h1>Lorem, ipsum dolor.</h1>
+  <h1>Eos, voluptas dolor!</h1>
+  <h1>Ut, tempore reprehenderit.</h1>
+  <h2>Lorem, ipsum dolor.</h2>
+  <h2>Aut, exercitationem ut.</h2>
+  <h2>Saepe, tenetur sint?</h2>
+  <p>Lorem, ipsum dolor.</p>
+  <p>Voluptatum, nesciunt incidunt.</p>
+  <p>Inventore, culpa laudantium!</p>
+</article>
+<article>
+  <h1>Lorem, ipsum dolor.</h1>
+  <h1>Fugiat, fuga rerum?</h1>
+  <h1>Vero, cumque eos!</h1>
+  <h2>Lorem, ipsum dolor.</h2>
+  <h2>Reiciendis, aut non!</h2>
+  <h2>Quae, soluta quos!</h2>
+  <p>Lorem, ipsum dolor.</p>
+  <p>Nesciunt, temporibus totam.</p>
+  <p>Labore, amet aut!</p>
+</article>
+<article class="text-red">
+  <h1>Lorem, ipsum dolor.</h1>
+  <h1>Obcaecati, sed quos!</h1>
+  <h1>Voluptate, alias aut.</h1>
+  <h2>Lorem, ipsum dolor.</h2>
+  <h2>Quidem, quos veniam.</h2>
+  <h2>Aperiam, esse praesentium.</h2>
+  <p>Lorem, ipsum dolor.</p>
+  <p>Maiores, labore molestiae.</p>
+  <p>Porro, ut dolore.</p>
+</article>
 
 </body>
 </html>
