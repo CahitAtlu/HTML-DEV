@@ -1,6 +1,36 @@
 html
 {
-    text-align: center;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(255, 255, 255);
+    text-align: center;          
 }
 
+header
+{
+    color: red;
+    font-size: 37px;
+}
+
+.menu-bar
+{
+    display: inline;
+    margin:10px;
+}
+
+
+li
+{ 
+    margin: 10px;
+    vertical-align: center;
+}
+
+h1
+{
+    color: blue; 
+    font-size: 37px;
+}
+
+img
+{
+    height: 300px;
+    width: 300px;
+}
