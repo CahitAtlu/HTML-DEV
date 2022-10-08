@@ -1,38 +1,38 @@
-/* Açıklama Satırı bu Şekilde Yazılıyor */ 
-/* yada */
-/****************** deneme  ***************/
-/* class için >>>  .text-red {} 
-   id için    >>>  #id bilgisi {}
-*/
-
-.fs-small 
+.kucuk-kutucuk-1 
 {
-  font-size: small;
+  float: left; 
+  background-color: yellow;
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
 }
 
-.fs-medium 
+.kucuk-kutucuk-2
 {
-  font-size: medium;
+  float: left; 
+  background-color: blue;
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
 }
 
-.fs-large 
+.kucuk-kutucuk-3
 {
-  font-size: large;
+  float: left; 
+  background-color: green;
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
 }
 
-#first-article 
+.margin-icin
 {
-font-size: 40px;
+margin-right: 10px;
 }
 
-h1, h2 ,h3 ,h4 ,h5 ,h6 
+.Deneme-Kutusu
 {
-color: red;
-font-size: large;
-font-family:'Times New Roman';
+  background-color: red;
+  border-radius: 10px;
+  width: 225px;
 }
-
-color: red;
-font-size: 12 px;
-font-family:
-.class-ismi

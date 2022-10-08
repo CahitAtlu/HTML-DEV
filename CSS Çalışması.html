@@ -96,18 +96,78 @@ h1.fs-small yapıp enter yapabiliriz. Eğer aynı anda birden fazla class yazıl
   <h2>Lorem, ipsum dolor.</h2>
   <h2>Quidem, quos veniam.</h2>
   <h2>Aperiam, esse praesentium.</h2>
-  <p>Lorem, ipsum dolor.</p>
   <p>Maiores, labore molestiae.</p>
+  <p>Lorem, ipsum dolor.</p>
   <p>Porro, ut dolore.</p>
 </article>
 
 <!-- 
-  Eğer bir şeyler yan yana sıralamak istiyorsak, menü bar gibi şunu yapıyoruz:
+  Eğer bir şeyleri yan yana sıralamak istiyorsak, menü bar gibi şunu yapıyoruz:
   diplay: inline;
 -->
 
 <!-- 
   Eğer bir şeyleri sayfada tam ortalamak istiyorsak, text-align:center; yapıyoruz.
  -->
+<!-- external olarak * {} yaparak bir css yazarsak, bunun anlamı, yazılan css'in link verildiği sayfanın tamamında etki edeceği anlamına gelir-->
+
+<!-- Kapalı parantez sayesinde sadece istediğiniz özelliğe sahip olan kodlara css kodu etki ettirebiliyorsunuz. Örnek:
+[name] 
+{
+  color: blue;
+}
+ -->
+
+<!--
+   Float özelliği, blokları ya da kutuları yan yana getirir. Normalde kod yazıldığında alt alta gelir. Ama float özelliği ile alttaki kutu, üsttekinin yanına getirir.
+
+   Örneğin:
+   float:left; dersek, alttakini, üsttekinin yanına getirmiş oluyoruz.
+-->
+<!-- 
+  Margin: iki ayrı kutunun arasındaki boşluğu artırıp-azaltmayı sağlar.
+
+  Padding kutunun içindeki yazı otomatik olarak en soldan başlarken, padding ayarlandığında, yazıyı ortadan başlatabiliriz.
+ -->
+
+<!--
+Margin özelliğinde etrafı ayarlamak için kısa yol da oluyor tek tek yazmak yerine. Saat yöne etrafında yukarı, sağa, aşağı, sola değer verebiliyoruz.
+
+margin: 0px 20pc 10px 30px,
+ya da  yukarı-aşağı ve sağa-sola olarak da yazılabiliyor.
+margin: 20px 30px
+
+auto değeri ise kendisinin ayarlaması oluyor.
+-->
+ 
+ <!-- 
+  Clear özelliği ise: Clear kullanıldığında hedeflenen içeriğin sağını veya solunu ya da her ikisini birden silebiliyoruz. Yani boş bıraktırabiliyoruz.
+  -->
+
+<!-- 
+Border radius özelliği, oluşturulan kutucukların şeklini ayarlamanızı sağlar. 
+
+Örneğin: border-radius: 10px
+-->
+
+  <div><h1 class="Deneme-Kutusu">Deneme Kutusu</h1>
+
+      <div class="kucuk-kutucuk-1 margin-icin">
+            <h2>Küçük Kutucuk 1</h2>
+            Lorem ipsum dolor sit amet.
+      </div>
+
+      <div class="kucuk-kutucuk-2 margin-icin">
+            <h2>Küçük Kutucuk 2</h2>
+            Lorem ipsum dolor sit amet.
+      </div>
+
+      <div class="kucuk-kutucuk-3">
+            <h2>Küçük Kutucuk 3</h2>
+            Lorem ipsum dolor sit amet.
+      </div>
+
+  </div>
+
 </body>
 </html>
