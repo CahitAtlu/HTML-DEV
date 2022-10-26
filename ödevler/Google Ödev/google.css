@@ -7,3 +7,30 @@ html
 {
     background-color:rgb(237, 235, 233) ;
 }
+
+ul
+{
+    list-style-type:none
+}
+
+.ana-bar
+{
+    float:left;
+    margin:50px;
+    /* margin olayına tekrar bak */
+}
+
+#birinci-bar
+{
+    background-color:#7EE5DA;
+}
+
+#ikinci-bar
+{
+    background-color:#70CCC2;
+}
+
+#üçüncü-bar
+{
+    background-color:#62B3AA;
+}
