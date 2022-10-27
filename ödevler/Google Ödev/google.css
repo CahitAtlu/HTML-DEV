@@ -16,21 +16,49 @@ ul
 .ana-bar
 {
     float:left;
-    margin:50px;
-    /* margin olayına tekrar bak */
+    
+
 }
 
 #birinci-bar
 {
     background-color:#7EE5DA;
+    width: 415px;
+    height: 80px;
+    margin-right: 2px ;
 }
 
 #ikinci-bar
 {
     background-color:#70CCC2;
+    height: 80px;px;
+    width: 225px;
+    margin-right: 2px;
+        
 }
 
 #üçüncü-bar
 {
     background-color:#62B3AA;
+    width: 480px;
+    height: 80px;
 }
+
+#ikinci-ul
+{
+    padding:0%;
+    font-size: small;
+}
+
+#ilk-div
+{
+   margin-left: 70px;
+   margin-right: 70px;
+  
+}
+
+#archive
+{
+    font-size: small;
+}
+/* Copyright ©1998 Google Inc. Kısmından devam edilecek*/
